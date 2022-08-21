@@ -189,7 +189,6 @@ span {
     background-color: #5cac5c;
     color: white;
     font-weight: bold;
-    font-size: 1em;
     border: none;
     border-radius: 0.1em;
     margin: 4em 0;
@@ -294,7 +293,6 @@ span {
     background-color: #5cac5c;
     color: white;
     font-weight: bold;
-    font-size: 1em;
     border: none;
     border-radius: 0.1em;
     margin-top: 1.5em;
@@ -361,7 +359,7 @@ span {
         padding-right: 3em;
     }
     .three-benefits div img {
-        padding-right: 1em;
+        padding-right: 2em;
     }
 
     .five {
@@ -377,8 +375,68 @@ span {
       }
 }
 
-@media (orientation: portrait) {
+@media (orientation: portrait) and (max-width: 980px) {
+    .top a {
+        font-size: 32px;
+    }
+    .top img {
+        height: 160px;
+    }
     .one {
+        padding-top: 96px;
+    }
+    .text-mid-one {
+        font-size: 32px;
+    }
+
+    .form-mid-one {
+        font-size: 32px;
+        width: 600px;
+    }   
+    
+    .two {
+        padding-top: 48px;
+        font-size: 32px;
+        text-align: center;
+    }
+    .two img {
+        height: 400px;
+    }
+    .two-img {
+        margin-bottom: 0;
+    }
+    .three button {
+        margin: 32px 0 96px 0;
+    }
+    .other-button {
+        font-size: 32px;
+    }
+
+    .four {
+        font-size: 28px;
+        padding-top: 64px;
+    }
+    .four h1 {
+        padding-bottom: 32px;
+    }
+    .accordion button {
+        width: 800px;
+        text-align: center;
+        padding-left: 0;
+    }
+    
+    .five {
         
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .five-two {
+        margin: 0 96px;
+    }
+
+    .six {
+        padding: 48px 0;
+        font-size: 24px;
     }
 }
