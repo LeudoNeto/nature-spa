@@ -49,7 +49,7 @@ class Chamada
 
     private function connection()
     {
-        return new \PDO("mysql:host=localhost;dbname=teste_fullstack", "root", "");
+        return new \PDO("mysql:host=localhost;dbname=nature_spa", "root", "");
     }
 
     public function create() :string

@@ -1,35 +1,39 @@
-teste rodando em live: https://teste-fullstack-ellos.leudoneto.repl.co/
+# ⚡ Projeto funcionando:
 
-# Documentação do projeto
+https://nature-spa.leudoneto.repl.co
 
-## Para executar com WampServer
+# 🏷️ Documentação do projeto
 
->  <a href="https://github.com/LeudoNeto/teste-frontend-developer.git">**<h2>Git Clone</h2>**</a>
-> 
-> - ` 1. ` No arquivo `Chamada.php` altere a função `connection` com as informações para autenticação do seu banco de dados. (Por padrão vem a conexão para um MySQL de endereço localhost, para usuário root, sem senha e que acessa o banco de dados "teste_fullstack")
+## 🚀 Instalação
+
+>  git clone https://github.com/LeudoNeto/nature-spa.git
+
+## 💻 Execução
+
+### Para executar com WampServer
+
+> - ` 1. ` No arquivo `Chamada.php` altere a função `connection` com as informações para autenticação do seu banco de dados. (Por padrão vem a conexão para um MySQL de endereço localhost, para usuário root, sem senha e que acessa o banco de dados "nature_spa")
 >
-> - ` 2. ` No seu banco de dados execute a query do arquivo `teste_fullstack.sql` para criar a tabela que será utilizada.
+> - ` 2. ` No seu banco de dados execute a query do arquivo `nature_spa.sql` para criar a tabela que será utilizada.
 > 
 > - ` 3. ` Após isso copie a pasta com todos os arquivos e cole-a em `\wamp64\www` no seu computador.
 >
-> - ` 4. ` Com todos os serviços do Wamp ativados, vá ao seu navegador e digite `localhost/teste-frontend-developer`.
+> - ` 4. ` Com todos os serviços do Wamp ativados, vá ao seu navegador e digite `localhost/nature-spa`.
 
-## Para executar com alguma IDE
+### Para executar com alguma IDE
 
->  <a href="https://github.com/LeudoNeto/teste-frontend-developer.git">**<h2>Git Clone</h2>**</a>
-> 
-> - ` 1. ` Abra um `workspace` na pasta `teste-frontend-developer`.
+> - ` 1. ` Abra um `workspace` na pasta `nature-spa`.
 >
-> - ` 2. ` No arquivo `Chamada.php` altere a função `connection` com as informações para autenticação do seu banco de dados. (Por padrão vem a conexão para um MySQL de endereço localhost, para usuário root, sem senha e que acessa o banco de dados "teste_fullstack")
+> - ` 2. ` No arquivo `Chamada.php` altere a função `connection` com as informações para autenticação do seu banco de dados. (Por padrão vem a conexão para um MySQL de endereço localhost, para usuário root, sem senha e que acessa o banco de dados "nature_spa")
 >
-> - ` 3. ` No seu banco de dados execute a query do arquivo `teste_fullstack.sql` para criar a tabela que será utilizada.
+> - ` 3. ` No seu banco de dados execute a query do arquivo `nature_spa.sql` para criar a tabela que será utilizada.
 >
 > - ` 4. ` Vá ao arquivo index.php, e no terminal execute `php -S 0.0.0.0:8000`
 >
 > - ` 5. ` No navegador acesse `localhost:8000`
 >
 
-# Documentação do código
+# 📝 Documentação do código
 
 ## Chamada.php
 
@@ -57,13 +61,11 @@ O JavaScript do projeto, tendo as seguintes funcionalidades:
 >
 > - A terceira e última parte é a responsável por fazer todos os botões de `Chamada para ação` (fora o que se localiza no formulário), realizarem o scroll da tela até o formulário.
 
-OBS: mesmo com o teste permitindo o uso de jQuery eu optei por não utilizar já que tudo que eu pretendia já era possível com o JavaScript vanilla mesmo.
-
 ## styles.css
 
 O CSS do projeto, responsável principalmente pela parte responsiva, fazendo com que caso o site estivesse sendo visto em aparelhos de tela menor, os itens que se encontravam à direita (nas seções que haviam uma divisão clara) fossem mostrados abaixo dos que estavam à esquerda, ficando ambos centralizados. Além da responsividade, todos os esquemas de espaçamento, cores e animações estão disponíveis nele.
 
-# Testes funcionando:
+# 🎥 Testes funcionando:
 
 ## Landing page e animações:
 
@@ -72,3 +74,17 @@ O CSS do projeto, responsável principalmente pela parte responsiva, fazendo com
 ## Formulário:
 
 ![Formulário](testes/form.gif)
+
+# Sobre o projeto:
+
+## Desafio
+
+<ul>
+    <li>Você deverá desenvolver uma landing page seguindo a estrutura exibida na imagem abaixo. Você pode utilizar os textos e imagens de sua preferência para a criação da página.</li>
+    <li>Deixar o formulário da landing page funcional, onde ao preencher as informações e clicar para enviar, o formulário será submetido e os dados deverão ser gravados em um banco de dados.</li>
+</ul>
+
+## Imagem do design:
+
+![Template da página a ser desenvolvida](wireframe.png)
+
